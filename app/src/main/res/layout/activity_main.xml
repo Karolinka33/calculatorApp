@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/displayLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtCalcProccess"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/txtCalcRes"
+        android:layout_marginBottom="166dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:layout_margin="16dp"/>
+
+    <TextView
+        android:id="@+id/txtCalcRes"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_above="@+id/gridButtons"
+        android:layout_marginBottom="166dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="@color/black"
+        android:textSize="64dp"
+        android:layout_margin="16dp"/>
+
+
+<!--sudares string faila ir pakures pirma pavyzdi as prasiau DI kad sudeliotu man  visus likusius button'us taip pat,
+ bet nezinau kodel jis tai padare pakeisdamas tai, kaip jie yra parasyti (jis rase stulpeliais, o ne eilutemis-->
+    <GridLayout
+        android:id="@+id/gridButtons"
+        android:layout_width="408dp"
+        android:layout_height="478dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:alignmentMode="alignMargins"
+        android:background="#CED6A7"
+        android:columnCount="5"
+        android:rowCount="6"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="true">
+
+        <Button
+            android:id="@+id/btnMC"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_mc" />
+
+        <Button
+            android:id="@+id/btnMR"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_mr" />
+
+        <Button
+            android:id="@+id/btnMS"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_ms" />
+
+        <Button
+            android:id="@+id/btnMPlus"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_mplus" />
+
+        <Button
+            android:id="@+id/btnMMinus"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_mminus" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_del" />
+
+        <Button
+            android:id="@+id/btnCE"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_ce" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_clear" />
+
+        <Button
+            android:id="@+id/btnSign"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_sign" />
+
+        <Button
+            android:id="@+id/btnSqrt"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_sqrt" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_7" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_8" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_9" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_div" />
+
+        <Button
+            android:id="@+id/btnPercent"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_percent" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_4" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_5" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_6"/>
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_mul" />
+
+        <Button
+            android:id="@+id/btnInverse"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_inverse" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_2" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_3" />
+
+        <Button
+            android:id="@+id/btnSubtract"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_sub" />
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="72dp"
+            android:layout_height="144dp"
+            android:layout_rowSpan="2"
+            android:text="@string/btn_equals" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="144dp"
+            android:layout_height="72dp"
+            android:layout_columnSpan="2"
+            android:backgroundTint="#AD9D44"
+            android:text="@string/btn_0" />
+
+        <Button
+            android:id="@+id/btnDot"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:text="@string/btn_dot" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:backgroundTint="#44AD81"
+            android:text="@string/btn_add" />
+
+    </GridLayout>
+</RelativeLayout>

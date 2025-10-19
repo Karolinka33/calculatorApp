@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MyCalculator</string>
+
+    <!-- Memory buttons -->
+    <string name="btn_mc">MC</string>
+    <string name="btn_mr">MR</string>
+    <string name="btn_ms">MS</string>
+    <string name="btn_mplus">M+</string>
+    <string name="btn_mminus">M-</string>
+
+    <!-- Control buttons -->
+    <string name="btn_del">←</string>
+    <string name="btn_ce">CE</string>
+    <string name="btn_clear">C</string>
+    <string name="btn_sign">±</string>
+    <string name="btn_sqrt">√</string>
+
+    <!-- Numbers -->
+    <string name="btn_0">0</string>
+    <string name="btn_1">1</string>
+    <string name="btn_2">2</string>
+    <string name="btn_3">3</string>
+    <string name="btn_4">4</string>
+    <string name="btn_5">5</string>
+    <string name="btn_6">6</string>
+    <string name="btn_7">7</string>
+    <string name="btn_8">8</string>
+    <string name="btn_9">9</string>
+    <string name="btn_dot">.</string>
+
+    <!-- Operations -->
+    <string name="btn_div">/</string>
+    <string name="btn_mul">*</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_add">+</string>
+    <string name="btn_percent">%</string>
+    <string name="btn_inverse">1/x</string>
+    <string name="btn_equals">=</string>
+</resources>
